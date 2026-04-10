@@ -1,4 +1,4 @@
-# Xi/Alpha fsaverage10k Pipeline
+# Xi/Alpha hansen
 
 This repository converts Brainstorm/Matlab cortical maps to `fsaverage10k`, computes age-group/global averages, and runs Hansen-style receptor dominance analysis.
 
