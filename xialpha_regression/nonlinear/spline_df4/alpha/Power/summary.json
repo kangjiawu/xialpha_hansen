@@ -1,0 +1,23 @@
+{
+  "model_type": "nonlinear",
+  "method": "spline_df4",
+  "model_description": "y ~ cubic spline(age, df=4)",
+  "feature_key": "Alpha_estimate_Power",
+  "source_kind": "alpha",
+  "feature_name": "Power",
+  "subject_count": 1965,
+  "age_min": 5.17,
+  "age_max": 97.0,
+  "age_effect_map_definition": "delta_pred_map.csv stores predicted value at max(age) minus predicted value at min(age) for each region",
+  "outputs": {
+    "delta_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\delta_pred_map.csv",
+    "model_p_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\model_p_map.csv",
+    "model_q_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\model_q_map.csv",
+    "r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\r2_map.csv",
+    "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\adj_r2_map.csv",
+    "age_at_min_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\age_at_min_pred_map.csv",
+    "age_at_max_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\age_at_max_pred_map.csv",
+    "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\predictions_age_grid.csv",
+    "region_stats": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\region_stats.csv"
+  }
+}

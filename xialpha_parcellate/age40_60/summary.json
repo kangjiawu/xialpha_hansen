@@ -1,0 +1,10 @@
+{
+  "age_group": "age40_60",
+  "csv": "E:\\b2f10k\\xialpha_parcellate\\age40_60\\xialpha_parcellated_schaefer100.csv",
+  "shape": [
+    100,
+    7
+  ],
+  "feature_count": 7,
+  "error_count": 0
+}

@@ -1,0 +1,99 @@
+{
+  "input_csv": "E:\\b2f10k\\xialpha_parcellate\\xi\\Width\\Xi_estimate_Width_schaefer100.csv",
+  "subject_count": 1965,
+  "region_count": 100,
+  "age_min": 5.17,
+  "age_max": 97.0,
+  "linear": {
+    "model_type": "linear",
+    "implementation": "Gaussian linear model via OLS",
+    "feature_key": "Xi_estimate_Width",
+    "source_kind": "xi",
+    "feature_name": "Width",
+    "subject_count": 1965,
+    "age_min": 5.17,
+    "age_max": 97.0,
+    "age_effect_map_definition": "beta_age_map.csv stores the linear age coefficient for each region",
+    "outputs": {
+      "beta_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\beta_age_map.csv",
+      "t_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\t_age_map.csv",
+      "p_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\p_age_map.csv",
+      "q_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\q_age_map.csv",
+      "r2_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\r2_map.csv",
+      "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\adj_r2_map.csv",
+      "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\predictions_age_grid.csv",
+      "region_stats": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\region_stats.csv"
+    }
+  },
+  "nonlinear": {
+    "quadratic": {
+      "model_type": "nonlinear",
+      "method": "quadratic",
+      "model_description": "y ~ age + age^2",
+      "feature_key": "Xi_estimate_Width",
+      "source_kind": "xi",
+      "feature_name": "Width",
+      "subject_count": 1965,
+      "age_min": 5.17,
+      "age_max": 97.0,
+      "age_effect_map_definition": "delta_pred_map.csv stores predicted value at max(age) minus predicted value at min(age) for each region",
+      "outputs": {
+        "delta_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\delta_pred_map.csv",
+        "model_p_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\model_p_map.csv",
+        "model_q_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\model_q_map.csv",
+        "r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\r2_map.csv",
+        "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\adj_r2_map.csv",
+        "age_at_min_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\age_at_min_pred_map.csv",
+        "age_at_max_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\age_at_max_pred_map.csv",
+        "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\predictions_age_grid.csv",
+        "region_stats": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\region_stats.csv"
+      }
+    },
+    "cubic": {
+      "model_type": "nonlinear",
+      "method": "cubic",
+      "model_description": "y ~ age + age^2 + age^3",
+      "feature_key": "Xi_estimate_Width",
+      "source_kind": "xi",
+      "feature_name": "Width",
+      "subject_count": 1965,
+      "age_min": 5.17,
+      "age_max": 97.0,
+      "age_effect_map_definition": "delta_pred_map.csv stores predicted value at max(age) minus predicted value at min(age) for each region",
+      "outputs": {
+        "delta_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\delta_pred_map.csv",
+        "model_p_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\model_p_map.csv",
+        "model_q_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\model_q_map.csv",
+        "r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\r2_map.csv",
+        "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\adj_r2_map.csv",
+        "age_at_min_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\age_at_min_pred_map.csv",
+        "age_at_max_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\age_at_max_pred_map.csv",
+        "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\predictions_age_grid.csv",
+        "region_stats": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\region_stats.csv"
+      }
+    },
+    "spline_df4": {
+      "model_type": "nonlinear",
+      "method": "spline_df4",
+      "model_description": "y ~ cubic spline(age, df=4)",
+      "feature_key": "Xi_estimate_Width",
+      "source_kind": "xi",
+      "feature_name": "Width",
+      "subject_count": 1965,
+      "age_min": 5.17,
+      "age_max": 97.0,
+      "age_effect_map_definition": "delta_pred_map.csv stores predicted value at max(age) minus predicted value at min(age) for each region",
+      "outputs": {
+        "delta_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\delta_pred_map.csv",
+        "model_p_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\model_p_map.csv",
+        "model_q_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\model_q_map.csv",
+        "r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\r2_map.csv",
+        "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\adj_r2_map.csv",
+        "age_at_min_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\age_at_min_pred_map.csv",
+        "age_at_max_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\age_at_max_pred_map.csv",
+        "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\predictions_age_grid.csv",
+        "region_stats": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\region_stats.csv"
+      }
+    }
+  }
+}

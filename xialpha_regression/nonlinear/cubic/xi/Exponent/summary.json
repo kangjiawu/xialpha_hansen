@@ -1,0 +1,23 @@
+{
+  "model_type": "nonlinear",
+  "method": "cubic",
+  "model_description": "y ~ age + age^2 + age^3",
+  "feature_key": "Xi_estimate_Exponent",
+  "source_kind": "xi",
+  "feature_name": "Exponent",
+  "subject_count": 1965,
+  "age_min": 5.17,
+  "age_max": 97.0,
+  "age_effect_map_definition": "delta_pred_map.csv stores predicted value at max(age) minus predicted value at min(age) for each region",
+  "outputs": {
+    "delta_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\delta_pred_map.csv",
+    "model_p_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\model_p_map.csv",
+    "model_q_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\model_q_map.csv",
+    "r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\r2_map.csv",
+    "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\adj_r2_map.csv",
+    "age_at_min_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\age_at_min_pred_map.csv",
+    "age_at_max_pred_map": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\age_at_max_pred_map.csv",
+    "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\predictions_age_grid.csv",
+    "region_stats": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\region_stats.csv"
+  }
+}

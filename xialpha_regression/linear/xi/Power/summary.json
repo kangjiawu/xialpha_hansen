@@ -1,0 +1,21 @@
+{
+  "model_type": "linear",
+  "implementation": "Gaussian linear model via OLS",
+  "feature_key": "Xi_estimate_Power",
+  "source_kind": "xi",
+  "feature_name": "Power",
+  "subject_count": 1965,
+  "age_min": 5.17,
+  "age_max": 97.0,
+  "age_effect_map_definition": "beta_age_map.csv stores the linear age coefficient for each region",
+  "outputs": {
+    "beta_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\beta_age_map.csv",
+    "t_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\t_age_map.csv",
+    "p_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\p_age_map.csv",
+    "q_age_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\q_age_map.csv",
+    "r2_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\r2_map.csv",
+    "adj_r2_map": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\adj_r2_map.csv",
+    "predictions_age_grid": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\predictions_age_grid.csv",
+    "region_stats": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\region_stats.csv"
+  }
+}

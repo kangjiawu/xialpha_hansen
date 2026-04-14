@@ -1,0 +1,210 @@
+{
+  "regression_root": "E:\\b2f10k\\xialpha_regression",
+  "figure_root": "E:\\b2f10k\\figure",
+  "input_mode": "age_effect_maps",
+  "default_effect_maps": [
+    "beta_age_map.csv",
+    "delta_pred_map.csv"
+  ],
+  "plotted_count": 28,
+  "error_count": 0,
+  "records": [
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\alpha\\Exponent\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\alpha\\Exponent\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.001442110179608248,
+      "vmax": 0.001442110179608248
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\alpha\\PAF\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\alpha\\PAF\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.0019753529674901853,
+      "vmax": 0.0019753529674901853
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\alpha\\Power\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\alpha\\Power\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.0006794782529675967,
+      "vmax": 0.0006794782529675967
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\alpha\\Width\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\alpha\\Width\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.0010985273171989713,
+      "vmax": 0.0010985273171989713
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Exponent\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\xi\\Exponent\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.011069381846067476,
+      "vmax": 0.011069381846067476
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Power\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\xi\\Power\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.003482738691618595,
+      "vmax": 0.003482738691618595
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\linear\\xi\\Width\\beta_age_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\linear\\xi\\Width\\beta_age_map.png",
+      "signed_map": true,
+      "vmin": -0.011954262923383375,
+      "vmax": 0.011954262923383375
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\alpha\\Exponent\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\alpha\\Exponent\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.3100207319482267,
+      "vmax": 0.3100207319482267
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\alpha\\PAF\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\alpha\\PAF\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.31418002666160283,
+      "vmax": 0.31418002666160283
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\alpha\\Power\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\alpha\\Power\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.1375421613283458,
+      "vmax": 0.1375421613283458
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\alpha\\Width\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\alpha\\Width\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.12126554781622155,
+      "vmax": 0.12126554781622155
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Exponent\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\xi\\Exponent\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -2.3849396141727244,
+      "vmax": 2.3849396141727244
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Power\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\xi\\Power\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.43204155967214386,
+      "vmax": 0.43204155967214386
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\cubic\\xi\\Width\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\cubic\\xi\\Width\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -1.8815062122372193,
+      "vmax": 1.8815062122372193
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\alpha\\Exponent\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\alpha\\Exponent\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.0816219334879253,
+      "vmax": 0.0816219334879253
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\alpha\\PAF\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\alpha\\PAF\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.2007841647649827,
+      "vmax": 0.2007841647649827
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\alpha\\Power\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\alpha\\Power\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.08498038429145821,
+      "vmax": 0.08498038429145821
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\alpha\\Width\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\alpha\\Width\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.10731244494678495,
+      "vmax": 0.10731244494678495
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Exponent\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\xi\\Exponent\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -1.4429886805770344,
+      "vmax": 1.4429886805770344
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Power\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\xi\\Power\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -1.2383787078108466,
+      "vmax": 1.2383787078108466
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\quadratic\\xi\\Width\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\quadratic\\xi\\Width\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -2.422733332716436,
+      "vmax": 2.422733332716436
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Exponent\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\alpha\\Exponent\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.2644132247152195,
+      "vmax": 0.2644132247152195
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\PAF\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\alpha\\PAF\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.30080964084732287,
+      "vmax": 0.30080964084732287
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Power\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\alpha\\Power\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.0961222209521094,
+      "vmax": 0.0961222209521094
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\alpha\\Width\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\alpha\\Width\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.1058128036091504,
+      "vmax": 0.1058128036091504
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Exponent\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\xi\\Exponent\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -2.408306775945076,
+      "vmax": 2.408306775945076
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Power\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\xi\\Power\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -0.3373263087041898,
+      "vmax": 0.3373263087041898
+    },
+    {
+      "input_csv": "E:\\b2f10k\\xialpha_regression\\nonlinear\\spline_df4\\xi\\Width\\delta_pred_map.csv",
+      "output_png": "E:\\b2f10k\\figure\\nonlinear\\spline_df4\\xi\\Width\\delta_pred_map.png",
+      "signed_map": true,
+      "vmin": -2.0370389809949367,
+      "vmax": 2.0370389809949367
+    }
+  ],
+  "errors": []
+}
